@@ -88,3 +88,9 @@ The previous benchmark showed an obvious AVX2 superiority, so I won't include sc
 ## Conclusion
 
 The contiguous storage strategy expectedly outperforms the non-contiguous one by about 10%. The SOA particle layout outperforms hybrid SOA/AOS by about 10% too. I went for a non-contiguous storage strategy and SOA particle layout because the former is much easier to support and extend, even though it's slightly slower, and the latter is faster and more memory efficient.
+
+## References
+
+https://www.bfilipek.com/2014/04/flexible-particle-system-start.html
+
+https://www.popcornfx.com/the-popcornfx-script-execution-model/
