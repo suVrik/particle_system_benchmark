@@ -52,6 +52,7 @@ All measurements are in nanoseconds.
 | TOTAL | 318670433 | 175722133 | 293242800 | 166263400 | 363986233 | 185967166 | 358752466 | 205320066 |
 
 ![](pictures/routines.png)
+
 *\* - CO goes for contiguous, NC goes for non-contiguous. AOS is actually a hybrid SOA/AOS layout.*
 
 ### Variable particle system count, up to 500 simultaneous particles on each particle system.
@@ -77,9 +78,11 @@ The previous benchmark showed an obvious AVX2 superiority, so I won't include sc
 | 25000 | 39668431500 | 42390617200 | 43988106000 | 45365968000 |
 
 ![](pictures/variable500.png)
+
 *Up to 500 particle systems.*
 
 ![](pictures/variable25000.png)
+
 *Up to 25000 particle systems.*
 
 ## Conclusion
