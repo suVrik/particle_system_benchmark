@@ -53,7 +53,7 @@ All measurements are in nanoseconds.
 
 ![](pictures/routines.png)
 
-*\* - CO goes for contiguous, NC goes for non-contiguous. AOS is actually a hybrid SOA/AOS layout.*
+*\* — CO goes for contiguous, NC goes for non-contiguous. AOS is actually a hybrid SOA/AOS layout.*
 
 ### Variable particle system count, up to 500 simultaneous particles on each particle system.
 
